@@ -7,41 +7,43 @@ body {
 /* margin : auto; permet de centrer l'élément sur la page web */
 
 .subdivision-nav {
-    display : grid;
-    grid-template-columns : ;
+    grid-template-columns : repeat(4 1fr);   
     border: 0.1em solid blueviolet;
     margin: 0.1em;
     padding: 0.1em;
     border-radius: 0.1em;
+    
+
 }
 
 .nav-passe {
 grid-column: 1 / 5;
 grid-row: 1;
 height: 2em;
-width: 25%;
+
+
 
 }
 
 .nav-present {
-    grid-column: 1 / 5;
-    grid-row: 2;
+    grid-column: 2 / 5;
+    grid-row: 1 / 1;
     height: 2em;
-    width: 25%;
+    
 }
 
 .nav-ensuite {
     grid-column: 3 / 5;
     grid-row: 1;
     height: 2em;
-    width: 25%;
+    
 }
 
 .nav-perso {
     grid-column: 4 / 5;
     grid-row: 1;
     height: 2em;
-    width: 25%;
+    
 }
 
 .wrapper {
@@ -52,6 +54,7 @@ width: 25%;
     border: 0.2em solid black;
     margin : 0.5em;
     padding : 0.5em;
+    
   }
 
   .navigation {
@@ -60,6 +63,7 @@ width: 25%;
     background-color: brown;
     border: 0.2em dotted black;
     height: 2em;
+    justify-content: space-around;
     
 
   }
