@@ -4,3 +4,90 @@ body {
     background: linear-gradient(180deg, rgba(84,76,209,1) 0%, rgba(40,83,134,1) 0%, rgba(0,104,255,1) 10%, rgba(89,154,221,1) 63%);
     text-align: center;
 }
+/* margin : auto; permet de centrer l'élément sur la page web */
+
+.subdivision-nav {
+    display : grid;
+    grid-template-columns : ;
+    border: 0.1em solid blueviolet;
+    margin: 0.1em;
+    padding: 0.1em;
+    border-radius: 0.1em;
+}
+
+.nav-passe {
+grid-column: 1 / 5;
+grid-row: 1;
+height: 2em;
+width: 25%;
+
+}
+
+.nav-present {
+    grid-column: 1 / 5;
+    grid-row: 2;
+    height: 2em;
+    width: 25%;
+}
+
+.nav-ensuite {
+    grid-column: 3 / 5;
+    grid-row: 1;
+    height: 2em;
+    width: 25%;
+}
+
+.nav-perso {
+    grid-column: 4 / 5;
+    grid-row: 1;
+    height: 2em;
+    width: 25%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border: 0.2em solid black;
+    margin : 0.5em;
+    padding : 0.5em;
+  }
+
+  .navigation {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: brown;
+    border: 0.2em dotted black;
+    height: 2em;
+    
+
+  }
+  .passe {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    background-color: blue;
+    border: 0.2em dotted black;
+  }
+
+  .present {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+    background-color: rgb(0, 255, 106);
+    border: 0.2em dotted black;
+    height: 12em;
+  }
+
+  .hobbies {
+    grid-column: 3;
+    grid-row: 2 / 4;
+    background-color: yellow;
+    border: 0.2em dotted black;
+  }
+ 
+  .ensuite {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    background-color: violet;
+    border: 0.2em dotted black;
+  }
