@@ -12,17 +12,12 @@ body {
     margin: 0.1em;
     padding: 0.1em;
     border-radius: 0.1em;
-    
-
 }
 
 .nav-passe {
 grid-column: 1 / 5;
 grid-row: 1;
 height: 2em;
-
-
-
 }
 
 .nav-present {
@@ -57,7 +52,7 @@ height: 2em;
     
   }
 
-  .navigation {
+.navigation {
     grid-column: 1 / 4;
     grid-row: 1;
     background-color: brown;
