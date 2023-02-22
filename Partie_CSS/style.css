@@ -8,9 +8,13 @@
 }
 
 body {
-    background: rgb(84,76,209);
-    background: linear-gradient(180deg, rgba(84,76,209,1) 0%, rgba(40,83,134,1) 0%, rgba(0,104,255,1) 10%, rgba(89,154,221,1) 63%);
+    background: rgb(34,66,124);
+    /* background: linear-gradient(180deg, rgba(84,76,209,1) 0%, rgba(40,83,134,1) 0%, rgba(0,104,255,1) 10%, rgba(89,154,221,1) 63%); */
     text-align: center;
+}
+
+a:hover {
+    opacity: 0.5;
 }
 
 /* MAIN */
@@ -81,7 +85,7 @@ body {
             background-color: blue;
             border: 0.2em dotted black;
             background-image: url(/Images/back-in-time.jpg);
-            background-size: contain;
+            background-size: cover;
         }  
 
     .present {
@@ -91,7 +95,7 @@ body {
             border: 0.2em dotted black;
             height: 12em;
             background-image: url(/Images/hackerman-learning.gif);
-            background-size: contain;
+            background-size: cover;
         }
 
     .hobbies {
@@ -102,17 +106,17 @@ body {
             background-color: yellow;
             border: 0.2em dotted black;
             background-image: url(/Images/hobbies.jpg);
-            background-size: contain;
+            background-size: cover;
         }
         
     .ensuite {
-            color: black;
+            color: white;
             text-align: center;
             grid-column: 1 / 3;
             grid-row: 3;
             background-color: violet;
             border: 0.2em dotted black;
-            background-image: url(/Images/hackerman-with-name.png);
+            background-image: url(/Images/et-ensuite.jpg);
             background-size: contain;
         }
 /* FIN MAIN */
