@@ -6,87 +6,208 @@ body {
 }
 /* margin : auto; permet de centrer l'élément sur la page web */
 
-.subdivision-nav {
-    grid-template-columns : repeat(4 1fr);   
-    border: 0.1em solid blueviolet;
+
+/* MAIN */
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        border: 0.2em solid black;
+        margin : 0.5em;
+        padding : 0.5em;
+        
+    }
+
+    .navigation {
+            grid-column: 1 / 4;
+            grid-row: 1;
+            background-color: brown;
+            border: 0.2em dotted black;
+            height: 2em;
+            justify-content: space-around;
+            
+
+        }
+
+        .subdivision-nav {
+            grid-template-columns : repeat(4 1fr);   
+            border: 0.1em solid blueviolet;
+            margin: 0.1em;
+            padding: 0.1em;
+            border-radius: 0.1em;
+        }
+
+        .nav-passe {
+        grid-column: 1 / 5;
+        grid-row: 1;
+        height: 2em;
+        }
+
+        .nav-present {
+            grid-column: 2 / 5;
+            grid-row: 1 / 1;
+            height: 2em;
+            
+        }
+
+        .nav-ensuite {
+            grid-column: 3 / 5;
+            grid-row: 1;
+            height: 2em;
+            
+        }
+
+        .nav-perso {
+            grid-column: 4 / 5;
+            grid-row: 1;
+            height: 2em;
+            
+        }
+
+    .passe {
+            grid-column: 1 / 2;
+            grid-row: 2 / 2;
+            background-color: blue;
+            border: 0.2em dotted black;
+        }
+
+    .present {
+            grid-column: 2 / 3;
+            grid-row: 2 / 2;
+            background-color: rgb(0, 255, 106);
+            border: 0.2em dotted black;
+            height: 12em;
+        }
+
+    .hobbies {
+            grid-column: 3;
+            grid-row: 2 / 4;
+            background-color: yellow;
+            border: 0.2em dotted black;
+        }
+        
+    .ensuite {
+            grid-column: 1 / 3;
+            grid-row: 3;
+            background-color: violet;
+            border: 0.2em dotted black;
+        }
+/* FIN MAIN */
+
+/* SECTION2 */
+
+.division-section2 {
+    grid-template-columns : repeat(2 1fr);   
+    border: 0.1em solid rgb(46, 43, 226);
     margin: 0.1em;
     padding: 0.1em;
     border-radius: 0.1em;
 }
+    .formations-en-cours {
+        grid-column: 1 / 2 ;
+        grid-row: 1;
+        background-color: green;
+    }
 
-.nav-passe {
-grid-column: 1 / 5;
-grid-row: 1;
-height: 2em;
+    .projets-en-cours {
+        grid-column : 2 / 3;
+        grid-row : 1;
+        background-color: blue;
+    }
+
+    .objectifs {
+        grid-column: 1 / 3;
+        grid-row: 2;
+        background-color: yellow;
+    }
+/* FIN SECTION2 */
+
+/* SECTION3 */
+
+.division-section3 {
+    grid-template-columns : repeat(3 1fr);   
+    border: 0.1em solid rgb(46, 43, 226);
+    margin: 0.1em;
+    padding: 0.1em;
+    border-radius: 0.1em;
 }
+    .formations-acquises {
+        grid-column: 1 / 2 ;
+        grid-row: 1;
+        background-color: green;
+    }
 
-.nav-present {
-    grid-column: 2 / 5;
-    grid-row: 1 / 1;
-    height: 2em;
-    
+    .competences-validees {
+        grid-column : 2 / 3;
+        grid-row : 1;
+        background-color: blue;
+    }
+
+    .projets-termines {
+        grid-column: 1 / 3;
+        grid-row: 2;
+        background-color: yellow;
+    }
+
+/* Fin SECTION3 */
+
+.division-section4 {
+    grid-template-columns : repeat(4 1fr);   
+    border: 0.1em solid rgb(46, 43, 226);
+    margin: 0.1em;
+    padding: 0.1em;
+    border-radius: 0.1em;
 }
+    .formation-juridique {
+        grid-column: 1 / 2 ;
+        grid-row: 1;
+        background-color: green;
+    }
 
-.nav-ensuite {
-    grid-column: 3 / 5;
-    grid-row: 1;
-    height: 2em;
-    
+    .experience-professionnelle {
+        grid-column : 2 / 3;
+        grid-row : 1;
+        background-color: blue;
+    }
+
+    .competences-acquises {
+        grid-column: 1 / 3;
+        grid-row: 2;
+        background-color: yellow;
+    }
+
+    .projets-geres {
+        grid-column: 1 / 3;
+        grid-row: 2;
+        background-color: red;
+    }
+/* Fin SECTION4 */
+
+/* SECTION5 */
+
+.division-section5 {
+    grid-template-columns : repeat(2 1fr);   
+    border: 0.1em solid rgb(46, 43, 226);
+    margin: 0.1em;
+    padding: 0.1em;
+    border-radius: 0.1em;
 }
+    .hobbies-indoors {
+        grid-column: 1 / 2 ;
+        grid-row: 1;
+        background-color: green;
+    }
 
-.nav-perso {
-    grid-column: 4 / 5;
-    grid-row: 1;
-    height: 2em;
-    
-}
+    .hobbies-outdoors {
+        grid-column : 2 / 3;
+        grid-row : 1;
+        background-color: blue;
+    }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    border: 0.2em solid black;
-    margin : 0.5em;
-    padding : 0.5em;
-    
-  }
-
-.navigation {
-    grid-column: 1 / 4;
-    grid-row: 1;
-    background-color: brown;
-    border: 0.2em dotted black;
-    height: 2em;
-    justify-content: space-around;
-    
-
-  }
-  .passe {
-    grid-column: 1 / 2;
-    grid-row: 2 / 2;
-    background-color: blue;
-    border: 0.2em dotted black;
-  }
-
-  .present {
-    grid-column: 2 / 3;
-    grid-row: 2 / 2;
-    background-color: rgb(0, 255, 106);
-    border: 0.2em dotted black;
-    height: 12em;
-  }
-
-  .hobbies {
-    grid-column: 3;
-    grid-row: 2 / 4;
-    background-color: yellow;
-    border: 0.2em dotted black;
-  }
- 
-  .ensuite {
-    grid-column: 1 / 3;
-    grid-row: 3;
-    background-color: violet;
-    border: 0.2em dotted black;
-  }
+    .qualites-personnelles {
+        grid-column: 1 / 3;
+        grid-row: 2;
+        background-color: yellow;
+    }
+/* Fin SECTION5 */
