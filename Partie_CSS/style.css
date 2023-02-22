@@ -47,6 +47,8 @@ a:hover {
             margin: 0.2em;
             padding: 0.2em;
             padding-top: 0.9em;
+            margin-left: 8em;
+            margin-right: 8em;
             justify-content: space-around;
             border-radius: 2em;
             font-size: 1.8em;
