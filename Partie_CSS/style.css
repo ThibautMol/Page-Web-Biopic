@@ -14,6 +14,7 @@
 body {
     background: rgb(34,66,124);
     text-align: center;
+    
 }
 
 a {
@@ -30,7 +31,7 @@ a:hover {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
         grid-auto-rows: minmax(100px, auto);
-        border: 0.2em solid black;
+        border: 0.2em;
         margin : 0.5em;
         padding : 0.5em;
         border-radius: 1.5em;
@@ -59,11 +60,11 @@ a:hover {
 
         .subdivision-nav {
             grid-template-columns : repeat(4 1fr);   
-            border: 0.01em solid rgba(9, 130, 160, 0.89);
+            /* border: 0.01em solid rgba(9, 130, 160, 0.89); */
             margin: 0.5em;
             padding: 0.1em;
             border-radius: 20em;
-            background-color: rgba(0, 0, 0, 0.300);
+            background-color: rgba(0, 0, 0, 0.200);
             color:black;
                    
         }
@@ -96,46 +97,78 @@ a:hover {
         }
 
     .passe {
-            color: white;
+            color: rgb(88, 51, 51);
             text-align: center;
             grid-column: 1 / 2;
             grid-row: 2 / 2;
+            min-height: 5em;
             background-color: blue;
-            border: 0.2em dotted black;
+            border: 0.2em;
+            border-radius: 7em;
             background-image: url(/Images/back-in-time.jpg);
             background-size: cover;
+            padding-top: 0.02em;
+            font-size: 2.5em;
+            font-family: 'kanit', sans-serif;
+            text-shadow:0 1px 0 #00ecff, 0 -1px 0 #ff4045;
+            
         }  
 
     .present {
+            color: rgb(88, 51, 51);
+            text-align: center;
+            font-size: 1.5em;
+            font-family: 'kanit', sans-serif;
+            text-shadow:0 1px 0 #00ecff, 0 -1px 0 #ff4045;
+            font-weight: 900;
             grid-column: 2 / 3;
             grid-row: 2 / 2;
+            min-height: 5em;
             background-color: rgb(0, 255, 106);
-            border: 0.2em dotted black;
-            height: 12em;
+            border: 0.2em;
             background-image: url(/Images/hackerman-learning.gif);
             background-size: cover;
+            padding-top: 6em;
+            padding-left: 10em;
+            
+            
         }
 
     .hobbies {
             color: black;
             text-align: center;
+            font-size: 2.5em;
+            font-family: 'kanit', sans-serif;
+            text-shadow:0 2px 0 #00ecff, 0 -2px 0 #ff4045;
+            font-weight: 900;
             grid-column: 3;
             grid-row: 2 / 4;
             background-color: yellow;
-            border: 0.2em dotted black;
+            border: 0.2em;
+            border-radius: 3em;
             background-image: url(/Images/hobbies.jpg);
             background-size: cover;
+            padding-top: 7em;
+            padding-right: 4em;
+            
         }
         
     .ensuite {
             color: white;
             text-align: center;
+            font-size: 2.5em;
+            font-family: 'kanit', sans-serif;
+            text-shadow:0 1px 0 #00ecff, 0 -1px 0 #ff4045;
+            font-weight: 900;
+            text-align: center;
             grid-column: 1 / 3;
             grid-row: 3;
             background-color: violet;
-            border: 0.2em dotted black;
+            border: 0.2em;
+            border-radius: 8em;
             background-image: url(/Images/et-ensuite.jpg);
             background-size: contain;
+            padding-top: 0.4em;
         }
 /* FIN MAIN */
 
