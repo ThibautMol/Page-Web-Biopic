@@ -1,11 +1,17 @@
+.banniere {
+    font-weight: 900;
+    padding : 100px;
+    background-image : url(/images/banner-hackerman.jpeg) ;
+    background-position: top;
+    background-size:cover;
+    
+}
 
 body {
     background: rgb(84,76,209);
     background: linear-gradient(180deg, rgba(84,76,209,1) 0%, rgba(40,83,134,1) 0%, rgba(0,104,255,1) 10%, rgba(89,154,221,1) 63%);
     text-align: center;
 }
-/* margin : auto; permet de centrer l'élément sur la page web */
-
 
 /* MAIN */
     .wrapper {
@@ -68,11 +74,15 @@ body {
         }
 
     .passe {
+            color: white;
+            text-align: center;
             grid-column: 1 / 2;
             grid-row: 2 / 2;
             background-color: blue;
             border: 0.2em dotted black;
-        }
+            background-image: url(/Images/back-in-time.jpg);
+            background-size: contain;
+        }  
 
     .present {
             grid-column: 2 / 3;
@@ -80,20 +90,30 @@ body {
             background-color: rgb(0, 255, 106);
             border: 0.2em dotted black;
             height: 12em;
+            background-image: url(/Images/hackerman-learning.gif);
+            background-size: contain;
         }
 
     .hobbies {
+            color: black;
+            text-align: center;
             grid-column: 3;
             grid-row: 2 / 4;
             background-color: yellow;
             border: 0.2em dotted black;
+            background-image: url(/Images/hobbies.jpg);
+            background-size: contain;
         }
         
     .ensuite {
+            color: black;
+            text-align: center;
             grid-column: 1 / 3;
             grid-row: 3;
             background-color: violet;
             border: 0.2em dotted black;
+            background-image: url(/Images/hackerman-with-name.png);
+            background-size: contain;
         }
 /* FIN MAIN */
 
