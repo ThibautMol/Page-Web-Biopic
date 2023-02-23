@@ -128,6 +128,7 @@ a:hover {
             min-height: 5em;
             background-color: rgb(0, 255, 106);
             border: 0.2em;
+            border-radius: 1em;
             background-image: url(/Images/hackerman-learning.gif);
             background-size: cover;
             padding-top: 6em;
