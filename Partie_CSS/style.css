@@ -61,7 +61,7 @@ a:hover {
     
 
         .subdivision-nav {
-            grid-template-columns : repeat(4 1fr);   
+            grid-template-columns : repeat(4, 1fr);   
             /* border: 0.01em solid rgba(9, 130, 160, 0.89); */
             margin: 0.5em;
             padding: 0.1em;
@@ -179,7 +179,7 @@ a:hover {
 
 .division-section2 {
     display: grid;
-    grid-template-columns : repeat(2 1fr);  
+    grid-template-columns : repeat(2, 1fr);  
     grid-row: 1; 
     border: 0.2em;
     margin : 0.5em;
@@ -249,7 +249,7 @@ a:hover {
 
 .division-section3 {
     display: grid;
-    grid-template-columns : repeat(2 1fr);  
+    grid-template-columns : repeat(2, 1fr);
     grid-row: 1; 
     border: 0.2em;
     margin : 0.5em;
@@ -280,7 +280,7 @@ a:hover {
         justify-content: space-around;
         font-size: 1em;
         font-weight: 600;
-        max-height: 12em;
+        max-height: fit-content(40%);
         -webkit-text-stroke: 0.01em white;
     }
 
@@ -316,7 +316,7 @@ a:hover {
 
 .division-section4 {
     display: grid;
-    grid-template-columns : repeat(4 1fr);   
+    grid-template-columns : repeat(4, 1fr);   
     border: 0.2em;
     margin : 0.5em;
     padding : 0.5em;
@@ -401,7 +401,7 @@ a:hover {
 
 .division-section5 {
     display: grid;
-    grid-template-columns : repeat(3 1fr);   
+    grid-template-columns : repeat(3, 1fr);   
     border: 0.2em;
     margin : 0.5em;
     padding : 0.5em;
