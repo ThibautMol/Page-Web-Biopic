@@ -1,0 +1,44 @@
+Bugs à corriger : 
+
+                résoudre les problèmes d'adaptation taille block et texte pour : 
+                    - les photos dans le main qui zooment au lieu de rester fixe, pareil pour le texte dont la taille 
+                    ne s'adapte pas.
+                    - La taille du bloc formations acquises dans la section 3 (rendre sa taille adaptée au texte 
+                    mais conflit avec le second bloc (la taille se colle sur celle là pour les deux))
+                    - la totalité de la section 4 et 5 dont la taille des blocs a été figée ce qui pose soucis
+
+
+Développement à rajouter : 
+
+                        scrolling : 
+                            - Mettre en place un saut de page automatique basé sur les sections
+                            (jump d'une section à une autre quand on scroll vers le bas)
+                            - Insérer des fléches pour remonter au début de la page ou aller tout en bas
+
+                        Sections : 
+                            - Rajouter une section 6 "Salle de jeu" avec tous mes scripts pythons etc exécutables et testables.
+                            - Sélectionner uniquement les scripts interessants (jeux de dés, devinettes etc.)
+
+                        Contenue : 
+                            - Remplacer le lorem ipsum par du vrai texte et de vrais informations
+                            - Trouver et/ou générer des photos libres de droits adaptées aux sujets
+                            - Modifier les photos pour en mettre des professionnelles
+                            - Créer un dégradé de couleurs douces en fond de la page
+                            - Modifier les blocs et leurs borders pour leur donner des formes plus jolies
+                            - Retravailler le footer
+                            - faire en sorte que la bannière constitue une section à part entière et s'enchaine comme les autres
+
+                        Animations : 
+                            - Remplacer l'image dans la barre de navigation par une image avec des vagues qui bougent ou bulles 
+                            qui remontent
+                            - Créer un fondue lors du saut de page du scrolling pour une apparition progressive et animée du contenue
+                            - Retravailler le hover sur les liens (rétrécissement du bloc lorsqu'on passe dessus + modification du curseur)
+
+
+                        Version alternative : 
+                            - Créer une version alternative de la page activable par un konami code
+                            - Version qui change les images par celles de Kung Fury
+                            - Modification de la police d'écriture pour les titres
+                            Curseur : 
+                                - Remplacer le curseur lorsqu'on est sur la page par hackerman
+                                - Faire évoluer l'image de ce dernier quand on est sur des liens clickables
