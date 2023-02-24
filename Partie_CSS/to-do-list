@@ -4,41 +4,57 @@ Bugs à corriger :
                     - les photos dans le main qui zooment au lieu de rester fixe, pareil pour le texte dont la taille 
                     ne s'adapte pas.
                     - La taille du bloc formations acquises dans la section 3 (rendre sa taille adaptée au texte 
-                    mais conflit avec le second bloc (la taille se colle sur celle là pour les deux))
-                    - la totalité de la section 4 et 5 dont la taille des blocs a été figée ce qui pose soucis
+                    mais conflit avec le second bloc (la taille se colle sur celle là pour les deux)).
+                    - la totalité de la section 4 et 5 dont la taille des blocs a été figée ce qui pose soucis.
 
 
 Développement à rajouter : 
 
                         scrolling : 
-                            - Mettre en place un saut de page automatique basé sur les sections
-                            (jump d'une section à une autre quand on scroll vers le bas)
-                            - Insérer des fléches pour remonter au début de la page ou aller tout en bas
+                            - Mettre en place un saut de page automatique basé sur les sections.
+                            (jump d'une section à une autre quand on scroll vers le bas).
+                            - Insérer des fléches pour remonter au début de la page ou aller tout en bas.
 
                         Sections : 
                             - Rajouter une section 6 "Salle de jeu" avec tous mes scripts pythons etc exécutables et testables.
-                            - Sélectionner uniquement les scripts interessants (jeux de dés, devinettes etc.)
+                            - Sélectionner uniquement les scripts interessants (jeux de dés, devinettes etc.).
 
                         Contenue : 
-                            - Remplacer le lorem ipsum par du vrai texte et de vrais informations
-                            - Trouver et/ou générer des photos libres de droits adaptées aux sujets
-                            - Modifier les photos pour en mettre des professionnelles
-                            - Créer un dégradé de couleurs douces en fond de la page
-                            - Modifier les blocs et leurs borders pour leur donner des formes plus jolies
-                            - Retravailler le footer
-                            - faire en sorte que la bannière constitue une section à part entière et s'enchaine comme les autres
+                            - Remplacer le lorem ipsum par du vrai texte et de vrais informations.
+                            - Trouver et/ou générer des photos libres de droits adaptées aux sujets.
+                            - Modifier les photos pour en mettre des professionnelles.
+                            - Créer un dégradé de couleurs douces en fond de la page.
+                            - Modifier les blocs et leurs borders pour leur donner des formes plus jolies.
+                            - Retravailler le footer.
+                            - faire en sorte que la bannière constitue une section à part entière et s'enchaine comme les autres.
 
                         Animations : 
                             - Remplacer l'image dans la barre de navigation par une image avec des vagues qui bougent ou bulles 
-                            qui remontent
-                            - Créer un fondue lors du saut de page du scrolling pour une apparition progressive et animée du contenue
-                            - Retravailler le hover sur les liens (rétrécissement du bloc lorsqu'on passe dessus + modification du curseur)
+                            qui remontent.
+                            - Créer un fondue lors du saut de page du scrolling pour une apparition progressive et animée du contenue.
+                            - Retravailler le hover sur les liens (rétrécissement du bloc lorsqu'on passe dessus + modification du curseur).
 
+                        Mini-jeu :
+                            - Ajouter un mini-jeu équivalent à celui du dino sur google quand la connexion internet saute.
+                            - Décider si le mini-jeu sera jouable sur pc uniquement ou sur tablettes/portables (faisabilité technique).
+                            - Activation du mini-jeu via des endroits spécifiques à cliquer sur le site. 
+                                - Ajouter des éléments (genre un zarbi ou autre discrètement dans l'image pour définir la zone)dans les images/fonds des zones cliquables. 
+                                Le mieux c'est de mettre des box invisibles afin que ce soit responsive.
+                                - Mettre un indice et des solutions dans le footers via une infobulle/popup lorsqu'on clique sur le bouton "Avez-vous remarqué?"
+                                - Dans l'infobulle/popup mettre un bouton "c'est partie" qui activera un timer.
+                                - Au bout d'une minute, les zones seront mises en surbrillances ou sortiront de leur statut invisible. 
+                                - Pas besoin d'ordre spécifique dans lequel on clique sur les zones pour activer le jeu. 
+                            - Modifier les modèles et skins de sorte que : 
+                                - Le dino soit remplacé par un homme ou femme (poussant une tondeuse) ou non-binaire (choix à faire, non-binaire génère un hélico(à définir)).
+                                - Les obstacles sont des rondins de bois, des cailloux, des voitures.
+                                - Le fond est un quartier résidentiel typique américain.  
+                                - Possibilité de gagner/perdre des points en fonction de qui on passe à la tondeuse (êtres humains on gagne des points, animaux on en perds).
+                            - Créer un tableau des scores dans lequel on peut rentrer son nom avec son score quand on perd;, les meilleures scores sont stockés un mois avant remise à 0.
 
                         Version alternative : 
-                            - Créer une version alternative de la page activable par un konami code
-                            - Version qui change les images par celles de Kung Fury
-                            - Modification de la police d'écriture pour les titres
+                            - Créer une version alternative de la page activable par un konami code.
+                            - Version qui change les images par celles de Kung Fury.
+                            - Modification de la police d'écriture pour les titres.
                             Curseur : 
-                                - Remplacer le curseur lorsqu'on est sur la page par hackerman
-                                - Faire évoluer l'image de ce dernier quand on est sur des liens clickables
+                                - Remplacer le curseur lorsqu'on est sur la page par hackerman.
+                                - Faire évoluer l'image de ce dernier quand on est sur des liens clickables.
