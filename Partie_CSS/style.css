@@ -28,7 +28,7 @@ a:hover {
 /* MAIN */
     .wrapper {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit(3, 1fr));
         grid-gap: 10px;
         grid-auto-rows: minmax(100px, auto);
         border: 0.2em;
@@ -56,12 +56,15 @@ a:hover {
             background-position: center;
             font-family: 'Josefin', sans-serif;
             font-weight: 600;
+            position: sticky;  
+            margin: auto;
+            top: 0;
 
         }
     
 
         .subdivision-nav {
-            grid-template-columns : repeat(4, 1fr);   
+            grid-template-columns : repeat(auto-fit(4, 1fr));   
             /* border: 0.01em solid rgba(9, 130, 160, 0.89); */
             margin: 0.5em;
             padding: 0.1em;
@@ -179,7 +182,7 @@ a:hover {
 
 .division-section2 {
     display: grid;
-    grid-template-columns : repeat(2, 1fr);  
+    grid-template-columns : repeat(auto-fit(2, 1fr));  
     grid-row: 1; 
     border: 0.2em;
     margin : 0.5em;
@@ -204,6 +207,7 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.800);
         border: 0.2em;
         margin : 2em;
+        margin-bottom: auto;
         padding : 0.5em;
         border-radius: 2em;
         justify-content: space-around;
@@ -249,7 +253,7 @@ a:hover {
 
 .division-section3 {
     display: grid;
-    grid-template-columns : repeat(2, 1fr);
+    grid-template-columns : repeat(auto-fit(2, 1fr));
     grid-row: 1; 
     border: 0.2em;
     margin : 0.5em;
@@ -258,6 +262,7 @@ a:hover {
     background-image: url(/Images/astronaut-present.png);
     background-size:cover;
     background-position: center;
+    z-index: 1;
 
 }
 
@@ -275,13 +280,15 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.800);
         border: 0.2em;
         margin : 1em;
-        padding : 0.5em;
+        margin-bottom: auto;
+        padding : 0.5em;        
         border-radius: 2em;
         justify-content: space-around;
         font-size: 1em;
         font-weight: 600;
         max-height: fit-content(40%);
         -webkit-text-stroke: 0.01em white;
+       
     }
 
     .competences-validees {
@@ -290,12 +297,15 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.800);
         border: 0.2em;
         margin : 1em;
+        margin-bottom: auto;
         padding : 0.5em;
         border-radius: 2em;
         justify-content: space-around;
         font-size: 1em;
         font-weight: 600;
         -webkit-text-stroke: 0.01em white;
+        
+        
     }
 
     .projets-termines {
@@ -310,13 +320,15 @@ a:hover {
         font-size: 1em;
         font-weight: 600;
         -webkit-text-stroke: 0.01em white;
+        
+        
     }
 
 /* Fin SECTION3 */
 
 .division-section4 {
     display: grid;
-    grid-template-columns : repeat(4, 1fr);   
+    grid-template-columns : repeat(auto-fit(4, 1fr));   
     border: 0.2em;
     margin : 0.5em;
     padding : 0.5em;
@@ -342,10 +354,11 @@ a:hover {
         border: 0.2em;
         margin : 1em;
         margin-top: 15em;
-        max-height: 17em;
+        margin-bottom: auto;
         padding : 0.5em;
         border-radius: 2em;
         justify-content: space-around;
+        
         font-size: 1em;
         font-weight: 600;
         -webkit-text-stroke: 0.01em white;
@@ -357,8 +370,8 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.700);
         border: 0.2em;
         margin : 1em;
+        margin-bottom: auto;
         padding : 0.5em;
-        max-height: 17em;
         border-radius: 2em;
         justify-content: space-around;
         font-size: 1em;
@@ -372,6 +385,7 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.700);
         border: 0.2em;
         margin : 1em;
+        margin-bottom: auto;
         padding : 0.5em;
         border-radius: 2em;
         justify-content: space-around;
@@ -386,9 +400,9 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.700);
         border: 0.2em;
         margin : 1em;
+        margin-bottom: auto;
         padding : 0.5em;
         margin-top: 15em;
-        max-height: 17em;
         border-radius: 2em;
         justify-content: space-around;
         font-size: 1em;
@@ -401,7 +415,7 @@ a:hover {
 
 .division-section5 {
     display: grid;
-    grid-template-columns : repeat(3, 1fr);   
+    grid-template-columns : repeat(auto-fit(3, 1fr));   
     border: 0.2em;
     margin : 0.5em;
     padding : 0.5em;
@@ -424,9 +438,9 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.700);
         border: 0.2em;
         margin : 1em;
-        padding : 0.5em;
+        margin-bottom: auto;
         margin-top: 15em;
-        max-height: 17em;
+        padding : 0.5em;       
         border-radius: 2em;
         justify-content: space-around;
         font-size: 1em;
@@ -440,9 +454,9 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.700);
         border: 0.2em;
         margin : 1em;
-        padding : 0.5em;
+        margin-bottom: auto;
         margin-top: 10em;
-        max-height: 12em;
+        padding : 0.5em;
         border-radius: 2em;
         justify-content: space-around;
         font-size: 1em;
@@ -456,8 +470,8 @@ a:hover {
         background-color: rgba(255, 255, 255, 0.700);
         border: 0.2em;
         margin : 1em;
+        margin-bottom: auto;
         padding : 0.5em;
-        max-height: 23em;
         border-radius: 2em;
         justify-content: space-around;
         font-size: 1em;
