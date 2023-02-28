@@ -1,11 +1,9 @@
 Bugs à corriger : 
 
                 résoudre les problèmes d'adaptation taille block et texte pour : 
-                    - les photos dans le main qui zooment au lieu de rester fixe, pareil pour le texte dont la taille 
-                    ne s'adapte pas.
-                    - La taille du bloc formations acquises dans la section 3 (rendre sa taille adaptée au texte 
-                    mais conflit avec le second bloc (la taille se colle sur celle là pour les deux)).
-                    - la totalité de la section 4 et 5 dont la taille des blocs a été figée ce qui pose soucis.
+                    - les photos dans le main qui zooment au lieu de rester fixe, pareil pour le texte dont la taille ne s'adapte pas.
+                    - résoudre souci de mise à l'échelle de toutes les images.
+                
 
 
 Développement à rajouter : 
