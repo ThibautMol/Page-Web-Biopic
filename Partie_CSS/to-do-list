@@ -17,6 +17,7 @@ Développement à rajouter :
                         Sections : 
                             - Rajouter une section 6 "Salle de jeu" avec tous mes scripts pythons etc exécutables et testables.
                             - Sélectionner uniquement les scripts interessants (jeux de dés, devinettes etc.).
+                            - Faire un système dynamique qui cache les containers contenue dans mes sections. quand on clique dessus les containers vont apparaitre/se déployer via une animation. Il suffit de cliquer sur le titre de la section pour en déployer le contenue.
 
                         Contenue : 
                             - Remplacer le lorem ipsum par du vrai texte et de vrais informations.
@@ -57,3 +58,5 @@ Développement à rajouter :
                             Curseur : 
                                 - Remplacer le curseur lorsqu'on est sur la page par hackerman.
                                 - Faire évoluer l'image de ce dernier quand on est sur des liens clickables.
+                        Data :
+                            - Mettre en place une base de donnée collectant le nombre de clics, visites du site, scores au mini jeu, etc. Afficher cela sur un dashboard.
